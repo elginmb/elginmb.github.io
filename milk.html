@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Es Teh</title>
+    <script src="script/jquery-3.6.3.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
+    <div class="container">
+    <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="index.html">
+        <img src="image/bx-coffee-togo.svg" alt="site icon">
+        <span class="text-uppercase fw-lighter ms-2">Es Teh</span>
+    </a>
+
+  
+
+    <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+    <ul class="navbar-nav mx-auto text-center">
+        <li class="nav-item px-2 py-2">
+            <a class="nav-link text-uppercase text-dark" href="index.html">Home</a>
+            <span class="sr-only">(current)</span>
+        </li>
+        <li class="nav-item px-2 py-2">
+            <a class="nav-link text-uppercase text-dark" href="ice.html">Es Teh Poci</a>
+        </li>
+        <li class="nav-item px-2 py-2">
+            <a class="nav-link text-uppercase text-dark" href="milk.html">Order</a>
+        </li>
+    </ul>
+    </div>
+    </div>
+
+  </nav>
+  <header class = "vh-50 " style = "padding-top: 104px;">
+</header>
+
+  <!--Order-->
+
+  <div class="order" id="Order">
+    <h1><span>Order</span>Now</h1>
+
+    <div class="order_main">
+
+        <div class="order_image">
+            <img src="image/ETP - Menu for Website ORI-01.png">
+        </div>
+
+        <form action="#">
+
+            <div class="input">
+                <p>Name</p>
+                <input type="text" placeholder="you name">
+            </div>
+
+            <div class="input">
+                <p>Email</p>
+                <input type="email" placeholder="you email">
+            </div>
+
+            <div class="input">
+                <p>Number</p>
+                <input placeholder="you number">
+            </div>
+
+            <div class="input">
+                <p>How Much</p>
+                <input type="number" placeholder="how many order">
+            </div>
+
+            <div class="input">
+                <p>You Order</p>
+                <input placeholder="Drink Name">
+            </div>
+
+            <div class="input">
+                <p>Address</p>
+                <input placeholder="you Address">
+            </div>
+
+            <a href="#" class="order_btn" onclick="redirwhatsapp()">Order Now</a>
+
+        </form>
+
+    </div>
+
+</div>
+</footer>
+<!-- end of footer -->
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script> function redirwhatsapp(){
+        window.location.href = "https://wa.me/+6285900054498"
+    }</script>
+</body>
+</html>
